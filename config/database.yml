@@ -83,6 +83,6 @@ test:
 #
 production:
   <<: *default
-  database: simpleApp_production
-  username: simpleApp
-  password: <%= ENV['SIMPLEAPP_DATABASE_PASSWORD'] %>
+  database: postgres
+  username: postgres
+  password: ''
