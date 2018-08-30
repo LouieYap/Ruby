@@ -84,5 +84,5 @@ test:
 
 
 production:
-  url: "postgres://postgres:@115.85.30.58:5432/postgres"
+  url: <%= ENV['DATABASE_URL'] %>
   adapter: postgresql
