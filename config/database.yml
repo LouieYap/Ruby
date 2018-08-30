@@ -84,5 +84,5 @@ test:
 
 
 production:
-  url: "postgres://postgres:@10.155.64.167:5432/postgres"
+  url: "postgres://postgres:@localhost:5432/postgres"
   adapter: postgresql
