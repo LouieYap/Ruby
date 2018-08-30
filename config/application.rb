@@ -1,4 +1,4 @@
-require_relative 'boot'
+assets.initialize_on_precompilerequire_relative 'boot'
 
 require 'rails/all'
 
