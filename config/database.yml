@@ -82,6 +82,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 
-  DATABASE_URL="postgres://postgres:@localhost:5432/postgres";
+
 production:
-  url: <%= ENV['DATABASE_URL'] %>
+  url: "postgres://postgres:@localhost:5432/postgres"
+  adapter: postgresql
