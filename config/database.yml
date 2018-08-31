@@ -84,6 +84,8 @@ test:
 
 
 production:
-  <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
-  pool: 5
+  adapter: postgresql
+  host: localhost
+  username: postgres
+  password: ''
+  database: postgres
