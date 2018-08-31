@@ -85,7 +85,7 @@ test:
 
 production:
   adapter: postgresql
-  host: 127.0.0.1
+  host: localhost
   username: postgres
   password: ''
   database: postgres
