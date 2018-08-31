@@ -25,7 +25,7 @@ development:
   <<: *default
   database: postgres
   username: postgres
-  password: ''
+  password: ' '
 
 
   # The specified database role being used to connect to postgres.
@@ -87,4 +87,4 @@ production:
   <<: *default
   database: postgres
   username: postgres
-  password: ''
+  password: ' '
