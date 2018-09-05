@@ -24,7 +24,7 @@ default: &default
 development:
   <<: *default
   host: localhost
-  database: postgres
+  database: test
   username: postgres
   password: ' '
 
@@ -62,10 +62,9 @@ development:
 test:
   <<: *default
   host: localhost
-  database: postgres
+  database: test
   username: postgres
   password: ' '
-
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -91,6 +90,6 @@ test:
 production:
   <<: *default
   host: localhost
-  database: postgres
+  database: test
   username: postgres
   password: ' '
