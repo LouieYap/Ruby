@@ -1,0 +1,10 @@
+<% provide(:title, 'Login') %>
+<h1>Login</h1>
+
+<form accept-charset="UTF-8" action="/login/authenticate" method="post">
+  <label for="question1">Username: </label>
+  <input id="question1" name="question1" type="text" />
+  <label for="question2">Password: </label>
+  <input id="question2" name="question2" type="password" />
+  <input name="submit" type="submit" value="Login" />
+</form>
